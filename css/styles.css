@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#contenido {
+    text-align: center;
+    background-color: #05c5de;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(52, 19, 237, 0.1);
+}
+
+#imagenSeleccionada {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 10px;
+}
+
+#subir {
+    background-color: greenyellow;
+    border-radius: 12%;
+    padding: 12px;
+}
